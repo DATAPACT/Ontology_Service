@@ -1,0 +1,12 @@
+.idea
+__pycache__
+*.pyc
+
+# Ignore Git internals
+.git/
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore Python cache files
+__pycache__/
+*.pyc

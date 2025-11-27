@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8009:80"
+    environment:
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
