@@ -4,10 +4,6 @@ Powered by
 
 [![UoSLOGO](./images/UniSouthampton.png)](https://dips.soton.ac.uk/#home)
 
-| Project Links |
-| ------------- | 	
-| Software GitHub Repository --> Policy Editor software <https://github.com/...> | //use to refer to external repositories
-| Progress GitHub Project [ADD URL] |
 
 ## **General Description**
 
@@ -16,27 +12,23 @@ This is a docker container of a FastAPI implementation of an Ontology Service th
 * the storage and management of ontology metadata (e.g. the user who created it and when) and 
 * functions to extract ODRL relevant terms (e.g. lists of actions or purposes) from specific ontologies.
 
-## **Architecture**
-
-
-## **Component Definition**
-
-
-## **Screenshots**
-
 
 ## **Commercial Information**
 
-Table with the organisation, license nature (Open Source, Commercial ... ) and the license. Replace with the values of your module.
-
 | Organisation (s) | License Nature | License |
-| ---------------  | -------------- | ------- |
-
-## **Top Features**
-
+| --- | --- | --- |
+| University of Southampton  | Open Source | MIT Licence |
 
 
 ## **How To Install**
+
+### Requirements
+
+Docker
+
+### Software
+
+FastAPI, Python
 
 ### Triplestore Configuration
 
@@ -74,35 +66,12 @@ If you are not using docker, you can run the project as follows:
 * Run FastAPI `uvicorn main:app --reload` from the project directory
 * See the API here `http://127.0.0.1:8000/docs`
 
-### Requirements
+## Expected KPIs
 
-To be defined. 
+These KPI relate to the Policy Service suite of tools, which include the Policy Editor, the Policy Enginge and the Ontology Service.
 
-### Software
-
-To be defined. 
-
-### Summary of installation steps
-
-To be defined. 
-
-### Detailed steps
-
-To be defined. 
-
-## **How To Use**
-
-To be defined. 
+| What | How | Values |
+| --- | --- | --- |
+| 1) Policy management expressiveness: ability to represent data processing regulations in a machine processable form. 2) Policy-based Data Access Control Accuracy | 1) analysis of an existing large (>100) corpus of data sharing/data processing agreements 2) Experiments over at least two policies, asking the pilots to express (in machine processable form, through our tool's interface) a sample (min 20 each) of( access requests (evenly distributed as requests to be permitted, and to be denied).  | 1) analysis of an existing large (>100) corpus of data sharing/data processing agreements 2) Experiments over at least two policies, asking the pilots to express (in machine processable form, through our tool's interface) a sample (min 20 each) of( access requests (evenly distributed as requests to be permitted, and to be denied).  |
 
 
-## **Other Information**
-
-To be defined. 
-
-## **OpenAPI Specification**
-
-To be defined. 
-
-## **Additional Links**
-
-To be defined. 
