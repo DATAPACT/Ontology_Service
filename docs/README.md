@@ -68,8 +68,6 @@ If you are not using docker, you can run the project as follows:
 
 ## Expected KPIs
 
-These KPI relate to the Policy Service suite of tools, which include the Policy Editor, the Policy Enginge and the Ontology Service.
-
 | What | How | Values |
 | --- | --- | --- |
 | 1) Support auxiliary ontology service to UoS ODRL based tools | 1) Ensure integration of the Ontology Service with the UoS ODRL Tools  | 1) Integrate with at least 5 tools between Policy Editor, Policy Engine, Consent Manager, Negotiation Tool, Contract Service, RepuLink  |
