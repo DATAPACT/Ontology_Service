@@ -72,6 +72,7 @@ These KPI relate to the Policy Service suite of tools, which include the Policy 
 
 | What | How | Values |
 | --- | --- | --- |
-| 1) Policy management expressiveness: ability to represent data processing regulations in a machine processable form. 2) Policy-based Data Access Control Accuracy | 1) analysis of an existing large (>100) corpus of data sharing/data processing agreements 2) Experiments over at least two policies, asking the pilots to express (in machine processable form, through our tool's interface) a sample (min 20 each) of( access requests (evenly distributed as requests to be permitted, and to be denied).  | 1) Ability to move >15% of contractual clauses and privacy policies in an average agreement to machine-processable form. 2) High accuracy (>90%) in predicting the correct access control response  |
+| 1) Support auxiliary ontology service to UoS ODRL based tools | 1) Ensure integration of the Ontology Service with the UoS ODRL Tools  | 1) Integrate with at least 5 tools between Policy Editor, Policy Engine, Consent Manager, Negotiation Tool, Contract Service, RepuLink  |
 
-
+Progress towards KPIs:
+* 04/03/2026: 1) Designed integrated architecture, as reported in Deliverable 3.1
